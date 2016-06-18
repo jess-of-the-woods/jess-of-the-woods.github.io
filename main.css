@@ -39,6 +39,10 @@ a:hover {
   color: #59596b;
 }
 
+.logo {
+  max-width: 10%;
+}
+
 #main {
   clear: both;
   display: inline;
@@ -81,7 +85,12 @@ a:hover {
 /******* styles for minimum width 1100px ***********/
 
 @media (min-width: 1100px) {
+  .logo {
+    max-width: 15%;
+  }
+
   #links{
     margin: 1% 2% 0% 37%;
   }
+
 }
