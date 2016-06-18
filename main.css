@@ -6,7 +6,7 @@ html, body, #wrapper {
 body {
   background-color: #1e181c;
   text-align: center;
-  color: #d3d3d3;
+  color: rgba(211, 211, 211, 0.83);
   font-size: 1.7em;
 }
 
