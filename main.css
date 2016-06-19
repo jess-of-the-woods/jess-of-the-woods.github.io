@@ -43,8 +43,8 @@ a:hover {
 }
 
 .logo {
-  max-width: 10%;
-  /*margin: .7%;*/
+  max-width: 20%;
+  margin: .7%;
 }
 
 #main {
@@ -55,14 +55,10 @@ a:hover {
 
 #narrow {
   width: 45%;
-  /*background: lightblue;*/
-  /* Just so it's visible */
 }
 #wide {
   flex: 1;
   /* Grow to rest of container */
-  /*background: lightgreen;*/
-  /* Just so it's visible */
 }
 
 #links {
@@ -97,8 +93,8 @@ a:hover {
 
 @media (min-width: 1100px) {
   .logo {
-    max-width: 12%;
-    margin: .2%;
+    max-width: 7%;
+    margin: 1.5%;
   }
 
   #links{
