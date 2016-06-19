@@ -53,18 +53,16 @@ a:hover {
 }
 
 #main {
-  /*clear: both;*/
-  /*display: inline;*/
   width: 100%;
   display: flex;
 }
 
 #narrow {
   flex: 1;
-  /*width: 45%;*/
 }
+
 #wide {
-  flex: 1.2;
+  flex: 1.1;
   /* Grow to rest of container */
 }
 
