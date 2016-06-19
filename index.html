@@ -1,30 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="jess-stuart">
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!-- <meta name='viewport' content='width=device-width, initial-scale=1'> -->
+    <meta name='author' content='jess-stuart'>
     <title>Jess Stuart (@jess-of-the-woods)</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
-    <link href="main.css" rel="stylesheet" type="text/css">
+    <link rel='stylesheet' type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css'>
+    <link href='main.css' rel='stylesheet' type='text/css'>
     <script src="" type=""></script>
   </head>
   <body>
     <div id='wrapper'>
     <h1>Jess Stuart - Web Developer</h1>
     <div id='main'>
-      <div>
-        <p>email:
-          <a href='mailto:what.the.dickenss@gmail.com' target='_top'>what.the.dickenss@gmail.com</a><br/>
-          <a href='https://github.com/jess-of-the-woods' target='_blank'>GitHub</a> |
-          <a href='https://nz.linkedin.com/in/JessStuart' target='_blank'>LinkedIn</a><br/>
-          <a href='http://www.cyborgaesthetics.com' target='_blank'>Art</a> |
-          <a href='https://jess-of-the-woods.github.io' target='_blank'>Blog</a>
-        </p>
+      <div id='narrow' id='links'>
+          <a href='mailto:what.the.dickenss@gmail.com' target='_top'>
+            <img class='logo' src="img/email.png" alt="what.the.dickenss@gmail.com"/>
+          </a>
+          <br/>
+          <a href='https://github.com/jess-of-the-woods'>
+            <img class='logo' src="img/github.png" alt="github logo"/>
+          </a>
+          <a href='https://nz.linkedin.com/in/JessStuart'>
+            <img class='logo' src='img/linkedin_circle_gray-512.png' alt='linkedIn logo'/>
+          </a>
+          <br/><br/>
+          <a class='nonLogoLinks' href='http://www.cyborgaesthetics.com'>Art</a>
+          <a class='nonLogoLinks' href='#'> | | </a>
+          <a class='nonLogoLinks' href='https://jess-of-the-woods.github.io/blog'>Blog</a>
       </div>
-      <img class="profilepic" src="img/profile.jpg" alt="profile picture">
+      <div id='wide' id='picDiv'>
+        <img id='profilepic' src='img/profile.jpg' alt='profile picture'>
+      </div>
     </div>
     </div>
   </body>
