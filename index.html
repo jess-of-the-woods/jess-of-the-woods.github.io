@@ -3,7 +3,6 @@
   <head>
     <meta charset='UTF-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <!-- <meta name='viewport' content='width=device-width, initial-scale=1'> -->
     <meta name='author' content='jess-stuart'>
     <title>Jess Stuart (@jess-of-the-woods)</title>
     <meta charset="UTF-8">
@@ -15,7 +14,7 @@
   <body>
     <div id='wrapper'>
     <h1>Jess Stuart - Web Developer</h1>
-    <div id='main'>
+    <div class='flex'>
       <div id='wide' id='links'>
           <a href='mailto:what.the.dickenss@gmail.com' target='_top'>
             <img class='logo' src="img/email.png" alt="what.the.dickenss@gmail.com"/>
@@ -28,11 +27,15 @@
             <img class='logo' src='img/linkedin_circle_gray-512.png' alt='linkedIn logo'/>
           </a>
           <br/><br/>
-          <a class='nonLogoLinks' href='http://www.cyborgaesthetics.com'>Art</a>
-          <a class='nonLogoLinks' href='#'> | | </a>
-          <a class='nonLogoLinks' href='https://jess-of-the-woods.github.io/blog'>Blog</a>
+          <div>
+            <a class='nonLogoLinks projectLinks' href='projects.html'>Projects</a>
+            <p class='nonLogoLinks'> | </p>
+            <a class='nonLogoLinks projectLinks' href='http://www.cyborgaesthetics.com'>Art</a>
+            <p class='nonLogoLinks'> | </p>
+            <a class='nonLogoLinks projectLinks' href='https://jess-of-the-woods.github.io/blog'>Blog</a>
+          </div>
       </div>
-      <div id='narrow' id='picDiv'>
+      <div id='narrow'>
         <img id='profilepic' src='img/profile.jpg' alt='profile picture'>
       </div>
     </div>
