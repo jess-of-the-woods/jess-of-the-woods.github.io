@@ -31,6 +31,8 @@ h1 {
   margin: 4% 0% 3% 0%;
   color: #958b9f;
   font-size: 2.4em;
+  text-align: center;
+  text-shadow: 4px 4px rgba(0, 0, 0, 0.18);
 }
 
 p {
@@ -53,6 +55,7 @@ a:hover {
   margin: 1%;
   display: inline;
   /*font-size: 1.5em;*/
+  text-shadow: 4px 4px rgba(0, 0, 0, 0.18);
   font-size: 3em;
   flex: 1;
   flex-direction: row;
@@ -106,6 +109,8 @@ a:hover {
   box-shadow:         0px 0px 9px 6px #1a1a1a;
 }
 
+/****========  projects page ==========****/
+
 #header {
   display: inline;
 }
@@ -125,7 +130,8 @@ a:hover {
 }
 
 .projectLinks {
-  font-size: 1.3em;
+  /*font-size: 1.3em;*/
+  font-size: 2.6vw;
   margin: 2%;
   flex: 1;
   flex-direction: row;
