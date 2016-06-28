@@ -16,7 +16,7 @@ body {
   text-align: center;
   color: #a46694;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.7em;
+  /*font-size: 1.7em;*/
 }
 
 #wrapper {
@@ -30,7 +30,7 @@ h1 {
   padding: 2px;
   margin: 4% 0% 3% 0%;
   color: #958b9f;
-  font-size: 2.7em;
+  font-size: 2.4em;
 }
 
 p {
@@ -49,15 +49,11 @@ a:hover {
   color: #59596b;
 }
 
-.logo {
-  max-width: 17%;
-  margin: .7%;
-}
-
 .nonLogoLinks {
   margin: 1%;
   display: inline;
-  font-size: 2em;
+  /*font-size: 1.5em;*/
+  font-size: 3em;
   flex: 1;
   flex-direction: row;
   justify-content: space-between;
@@ -65,6 +61,11 @@ a:hover {
 
 #nonLogo {
   margin-bottom: 2%;
+}
+
+.logo {
+  max-width: 17%;
+  margin: .7%;
 }
 
 .main {
@@ -98,9 +99,8 @@ a:hover {
   float: right;
   border-radius: 6px;
   opacity: .86;
-  margin: 3%;
-  margin-right: 15%;
-  max-width: 25%;
+  margin: 3% 20% 3% 3%;
+  max-width: 40%;
   -moz-box-shadow:    0px 0px 9px 6px #1a1a1a;
   -webkit-box-shadow: 0px 0px 9px 6px #1a1a1a;
   box-shadow:         0px 0px 9px 6px #1a1a1a;
@@ -146,6 +146,15 @@ a:hover {
   .logo {
     max-width: 8%;
     margin: 1.5%;
+  }
+  h1 {
+    font-size: 3.5em;
+  }
+
+  .nonLogoLinks {
+    /*margin: 1%;
+    display: inline;*/
+    font-size: 3em;
   }
 
   #links{
