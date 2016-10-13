@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
+@-ms-viewport{
+  width: device-width;
+}
+
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -33,6 +37,8 @@ h1 {
   font-size: 2.4em;
   text-align: center;
   text-shadow: 4px 4px rgba(0, 0, 0, 0.18);
+  line-height: 1.2;
+  font-weight: 300;
 }
 
 p {
@@ -43,32 +49,11 @@ p {
 
 a {
   text-decoration: none;
-  /*color: #d3d3d3;*/
   color: #958b9f;
 }
 
 a:hover {
   color: #59596b;
-}
-
-.nonLogoLinks {
-  margin: 1%;
-  display: inline;
-  /*font-size: 1.5em;*/
-  text-shadow: 4px 4px rgba(0, 0, 0, 0.18);
-  font-size: 3em;
-  flex: 1;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-#nonLogo {
-  margin-bottom: 2%;
-}
-
-.logo {
-  max-width: 17%;
-  margin: .7%;
 }
 
 .main {
@@ -79,14 +64,37 @@ a:hover {
   display: flex;
 }
 
-#wide {
-  justify-content: space-around;
-  flex: 1.2;
-  /* Grow to rest of container */
+/*============== Index Page =================*/
+/*==== non-logo links ==== */
+#nonLogoContainer {
+  margin-bottom: 2%;
+  flex-direction: row;
+}
+
+.nonLogoLinks {
+  margin: 1%;
+  display: inline;
+  text-shadow: 4px 4px rgba(0, 0, 0, 0.18);
+  font-size: 3em;
+  /*font-size: 1.5em;*/
+  flex: 1;
+  justify-content: space-between;
+}
+
+/* ===== logo links ====*/
+.logo {
+  max-width: 17%;
+  margin: .7%;
 }
 
 #narrow {
-  flex: 1;
+  flex: 0.8;
+}
+
+#wide {
+  /*justify-content: space-around;*/
+  flex: 1.2;
+  /* Grow to rest of container */
 }
 
 #links {
@@ -109,18 +117,19 @@ a:hover {
   box-shadow:         0px 0px 9px 6px #1a1a1a;
 }
 
-/****========  projects page ==========****/
+/*=============  Projects Page ===============*/
 
 #header {
-  display: inline;
+  /*display: inline;*/
+  padding: 1%;
 }
 
 #home {
   font-size: 1.6em;
   padding: .5%;
-  width: 6%;
+  max-width: 6%;
   margin: 1%;
-  /*float: left;*/
+  float: left;
 }
 
 #heading {
@@ -129,13 +138,24 @@ a:hover {
   margin: 0 auto;
 }
 
-.projectLinks {
-  /*font-size: 1.3em;*/
-  font-size: 2.6vw;
-  margin: 2%;
-  flex: 1;
+.projectLinksContainer{
+  /*position: relative;*/
+  clear: left;
   flex-direction: row;
+  justify-content: space-around;
+  /*flex: 1;*/
+  max-width: 97%;
+  /*margin: 1%*/
+}
+
+.projectLinks {
+  font-size: 1.4em;
+  display: inline;
+  flex: 1;
   justify-content: space-between;
+  margin: 1.5%;
+  /*flex-shrink: 0.5;*/
+  /*font-size: 1.3em;*/
 }
 
 /***********************************/
@@ -153,14 +173,16 @@ a:hover {
     max-width: 8%;
     margin: 1.5%;
   }
+
   h1 {
     font-size: 3.5em;
   }
 
   .nonLogoLinks {
-    /*margin: 1%;
-    display: inline;*/
-    font-size: 3em;
+    /*margin: 1%;*/
+    /*display: inline;*/
+    /*font-size: 3em;*/
+    font-size: 3vw;
   }
 
   #links{
@@ -170,5 +192,14 @@ a:hover {
     margin-right: 35%;
   }
 
+  .projectLinks {
+    font-size: 1.8em;
+    /*display: inline;*/
+    /*margin: 1.5%;*/
+    /*flex: 1;*/
+    /*flex-shrink: 0.5;*/
+    /*justify-content: space-between;*/
+    /*font-size: 1.3em;*/
+  }
 
 }
